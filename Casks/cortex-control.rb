@@ -9,5 +9,5 @@ cask "cortex-control" do
 
   pkg "Cortex Control v1.2.0.pkg"
 
-  uninstall pkgutil: "com.neuraldsp.CortexControl" # Replace with the actual package identifier if different
+  uninstall pkgutil: ["com.neuraldsp.CortexControlApp.pkg","com.neuraldsp.CortexControlAddons.pkg", "com.neuraldsp.CortexControlManual.pkg"]
 end
